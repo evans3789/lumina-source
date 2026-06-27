@@ -4,9 +4,10 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "npx --yes vite",
-    "build": "npx --yes vite build",
-    "preview": "npx --yes vite preview"
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "oxlint",
+    "preview": "vite preview"
   },
   "dependencies": {
     "framer-motion": "^12.42.0",
